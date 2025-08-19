@@ -1,13 +1,37 @@
-# E-commerce_Listing
-# React + Vite
+#  E-commerce Listing App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-featured e-commerce app built with **React** and **Vite**, offering smooth UI, category filtering, search, sorting, and a dynamic cart powered by Redux Toolkit.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Features
 
-## Expanding the ESLint configuration
+- Browse products with a clean and responsive UI  
+- Filter by category and apply search functionality  
+- Sort products by criteria (e.g., price)  
+- Add/remove items to/from a persistent cart  
+- View cart summary with individual quantities and total price  
+- Seamless navigation using React Router  
+- State management with Redux Toolkit for reliability  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+##  Tech Stack
+
+- **React** (via Vite with ultra-fast HMR)  
+- **React Router** for SPA navigation  
+- **Redux Toolkit** for global state (product list, cart, pagination)  
+- **React Icons** for intuitive UI icons  
+- **CSS (or Tailwind)** for responsive styling  
+
+---
+
+##  Project Setup
+
+```bash
+git clone https://github.com/STUPIDLEARNER19/E-commerce_Listing.git
+cd E-commerce_Listing
+npm install
+npm run dev
+
+[GitHub](https://github.com/STUPIDLEARNER19/E-commerce_Listing)
